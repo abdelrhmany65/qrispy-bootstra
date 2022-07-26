@@ -1,0 +1,113 @@
+*{
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+}
+section{
+    padding: 150px 0;
+}
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+.navbar .navbar-nav a{
+    font-size: 20px;
+    color: #000;
+}
+.navbar .navbar-nav a:hover,
+.navbar .navbar-nav a.active{
+    color: #ffc107;
+}
+#Home h5::after,
+#Home h5::before{
+    content: "";
+    width: 40px;
+    height: 4px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 6px;
+}
+.slide-1{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
+     url(../images/cover1.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide-2{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
+     url(../images/cover2.jpg) no-repeat center;
+    background-size: cover;
+}
+.headeng h1{
+    font-size: 60px;
+}
+.headeng p{
+    margin: 25px 0;
+    font-size: 18px;
+}
+#menu ul button{
+    background-color: #ffc107;
+    color: #fff;
+    margin: 12px;
+}
+#menu ul button:hover{
+    background: none;
+    border: 1px solid #ffc107;
+    color: #ffc107;
+
+}
+#menu .tab-content .row .images:hover{
+    transform: scale(1.1);
+}
+#features{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),
+        url(../images/cover2.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 30px 0;
+    text-align: center;
+    
+}
+#team .team-memer img{
+    max-width: 140px;
+    box-shadow: -10px -10px 0 #ffc107;
+    border-radius: 100px;
+}
+#team .team-memer:hover{
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5)
+}
+#reservation{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),
+    url(../images/cover3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 50px 0;
+    text-align: center;  
+}
+#reservation .images img{
+    width: 100px;
+}
+#reservation .carousel-control-prev{
+    padding-bottom: 110px;
+}
+#footer{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),
+        url(../images/cover3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 30rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer i{
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+}
+#footer i:hover{
+    color: #ffc107;
+}
